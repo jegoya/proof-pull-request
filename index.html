@@ -9,6 +9,29 @@
 <body>  
     <h1>HOLA MUNDO</h1>
     <script src="script.js"></script>
+    <div class="shop-container">
+        <h2>Productos</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Camisa</h3>
+                <p>Precio: $20</p>
+                <button onclick="addToCart('Camisa', 20)">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h3>Pantalón</h3>
+                <p>Precio: $35</p>
+                <button onclick="addToCart('Pantalón', 35)">Agregar al carrito</button>
+            </div>
+            <div class="product">
+                <h3>Zapatos</h3>
+                <p>Precio: $50</p>
+                <button onclick="addToCart('Zapatos', 50)">Agregar al carrito</button>
+            </div>
+        </div>
+        <h2>Carrito de compras</h2>
+        <ul id="cart"></ul>
+        <p id="total"></p>
+    </div>
 </body>
 </html>
 
